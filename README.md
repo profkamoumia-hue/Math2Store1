@@ -1,16 +1,17 @@
-# Math2Store — GitHub Pages Landing Page
+# Math2Store Professional GitHub Pages
 
-This version displays **all 10 products currently listed on the Math2Store Payhip storefront**.
+This version contains 10 products and uses the direct Payhip URLs supplied for each product.
 
-## Files
-- `index.html`
-- `style.css`
-- `script.js`
+### Direct product links
+- Timeless Earth: https://payhip.com/b/pbgIR
+- Timeless Citadel: https://payhip.com/b/60kQH
+- Fit & Delicious: https://payhip.com/b/BxIX5
+- Master Arabic Handwriting & Letters: https://payhip.com/b/yft3G
+- Colorful Creatures: https://payhip.com/b/8gqa2
+- Coloring Book Rabbit: https://payhip.com/b/Dvwrg
+- Ten Golden Tips for Excelling in Math: https://payhip.com/b/XC0HE
+- Write It Right: https://payhip.com/b/OCSYn
+- Math Made Easy: https://payhip.com/b/c14Vq
+- Master the Writing of Arabic Letters: https://payhip.com/b/5VpCr
 
-## Important
-Four product buttons are connected to their known direct Payhip product pages. For the remaining products, the button currently opens the Math2Store storefront because their exact product URLs were not available from the store page data used to build this version. Once the direct Payhip links are provided, those buttons can be changed in one place.
-
-## Publish
-1. Create/open your GitHub repository.
-2. Upload `index.html`, `style.css`, `script.js`.
-3. Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.
+The landing page is hosted by GitHub Pages. Payhip handles product pages, checkout and delivery.

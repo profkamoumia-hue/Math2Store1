@@ -1,192 +1,131 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Math2Store — simple, fun and affordable digital learning resources for kids and beginners.">
-  <meta name="theme-color" content="#fff8ef">
-  <title>Math2Store | Make Learning Simple & Fun</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Math2Store — digital learning resources, Arabic handwriting, math practice, coloring and creative resources.">
+  <title>Math2Store | Learn. Create. Grow.</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav">
-      <a class="brand" href="#home" aria-label="Math2Store home">
-        <span class="brand-mark">M</span>
-        <span>Math<span>2</span>Store</span>
-      </a>
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
-      <nav class="nav-links">
-        <a href="#resources">Resources</a>
-        <a href="#math">Math</a>
-        <a href="#arabic">Arabic</a>
-        <a href="#coloring">Coloring</a>
-        <a href="#free">Free</a>
-      </nav>
+<header class="header">
+  <div class="container nav">
+    <a href="#home" class="logo"><span class="logo-box">M²</span><span>Math<span>2</span>Store</span></a>
+    <button class="menu" aria-label="Menu">☰</button>
+    <nav class="links">
+      <a href="#home">Home</a><a href="#products">Products</a><a href="#math">Math</a>
+      <a href="#arabic">Arabic</a><a href="#creative">Creative</a><a href="#free">Free</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="pill">DIGITAL RESOURCES • LEARN AT YOUR PACE</div>
+      <h1>Learning can be <em>simple.</em><br>Practice can be <em>fun.</em></h1>
+      <p class="hero-text">Discover thoughtfully designed digital resources for children, learners and creative minds — all in one place.</p>
+      <div class="actions"><a class="btn primary" href="#products">Explore the collection <b>→</b></a><a class="btn ghost" href="#free">Start with something free</a></div>
+      <div class="mini-trust"><span>✓ Instant access</span><span>✓ Digital products</span><span>✓ Beginner friendly</span></div>
     </div>
-  </header>
-
-  <main id="home">
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow">LEARNING RESOURCES FOR CURIOUS MINDS</div>
-          <h1>Make learning <span>simple, fun & engaging.</span></h1>
-          <p>Discover practical digital resources for kids and beginners — from math practice to Arabic handwriting and creative coloring.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#resources">Explore Resources <span>→</span></a>
-            <a class="btn btn-secondary" href="#free">Start for Free</a>
-          </div>
-          <div class="trust-row">
-            <span>✓ Instant access</span>
-            <span>✓ Affordable resources</span>
-            <span>✓ Kid-friendly</span>
-          </div>
-        </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="blob blob-one"></div>
-          <div class="blob blob-two"></div>
-          <div class="floating-card card-math">
-            <span class="icon">＋</span>
-            <strong>Math</strong>
-            <small>Practice & learn</small>
-          </div>
-          <div class="floating-card card-arabic">
-            <span class="icon arabic-icon">أ</span>
-            <strong>Arabic</strong>
-            <small>Write & recognize</small>
-          </div>
-          <div class="floating-card card-color">
-            <span class="icon">🎨</span>
-            <strong>Coloring</strong>
-            <small>Create & enjoy</small>
-          </div>
-          <div class="hero-center">
-            <div class="star">✦</div>
-            <div class="big-number">2<span>+</span></div>
-            <div class="center-label">Learn<br>with joy</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section intro" id="resources">
-      <div class="container">
-        <div class="section-heading centered">
-          <div class="eyebrow">OUR COLLECTION</div>
-          <h2>Resources made for <span>real learning.</span></h2>
-          <p>Choose a resource that matches your child's learning goal or start with a free Arabic workbook.</p>
-        </div>
-
-        <div class="products">
-          <article class="product-card" id="earth">
-            <div class="product-visual art-visual earth-visual"><div class="art-title">TIMELESS<br>EARTH</div><div class="art-sub">Matera ↔ Ghardaïa</div></div>
-            <div class="product-body"><span class="tag">FINE ART · DIGITAL</span><h3>Timeless Earth: Matera to Ghardaïa</h3><p>A digital fine-art piece connecting the beauty of Matera and Ghardaïa.</p><div class="product-bottom"><strong class="price">$2.70</strong><a class="product-btn" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">View Product <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card" id="citadel">
-            <div class="product-visual art-visual citadel-visual"><div class="castle">⌂</div><div class="art-title">TIMELESS<br>CITADEL</div><div class="art-sub">Matera & Casbah</div></div>
-            <div class="product-body"><span class="tag">FINE ART · DIGITAL</span><h3>Timeless Citadel: Matera & Casbah</h3><p>A digital fine-art print inspired by the timeless character of Matera and the Casbah.</p><div class="product-bottom"><strong class="price">$2.00</strong><a class="product-btn" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">View Product <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card" id="cakes">
-            <div class="product-visual art-visual cake-visual"><div class="cake">🍰</div><div class="cake-copy">SLIM<br>& SWEET</div></div>
-            <div class="product-body"><span class="tag">DIGITAL EBOOK · RECIPES</span><h3>Fit & Delicious: Healthy Cakes</h3><p>Healthy cake recipes designed for enjoying delicious treats while staying on track.</p><div class="product-bottom"><strong class="price">$6.30</strong><a class="product-btn" href="https://payhip.com/b/BxIX5" target="_blank" rel="noopener">Buy Now <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card free-card" id="free">
-            <div class="product-visual free-visual"><div class="free-badge">FREE</div><div class="arabic-big">أ → ي</div><div class="mini-stars">✦ ✧ ✦</div></div>
-            <div class="product-body"><span class="tag">BEGINNER · FREE RESOURCE</span><h3>Master Arabic Handwriting & Letters</h3><p>Start from scratch with Arabic letters, tracing exercises, first words and recognition practice.</p><div class="product-bottom"><strong class="price free-price">FREE</strong><a class="product-btn free-btn" href="https://payhip.com/b/yft3G" target="_blank" rel="noopener">Get It Free <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card" id="coloring">
-            <div class="product-visual color-visual"><div class="sun"></div><div class="mountain"></div><div class="animal">🐰</div><div class="rainbow">◜◝</div></div>
-            <div class="product-body"><span class="tag">AGES 3–8 · CREATIVE FUN</span><h3>Colorful Creatures</h3><p>A 20-page digital coloring adventure with animals, cartoon heroes and natural landscapes.</p><div class="product-bottom"><strong class="price">$3.59</strong><a class="product-btn" href="https://payhip.com/b/8gqa2" target="_blank" rel="noopener">Buy Now <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card">
-            <div class="product-visual rabbit-visual"><div class="rabbit-big">🐇</div><div class="rabbit-label">COLOR • CREATE • SMILE</div></div>
-            <div class="product-body"><span class="tag">COLORING BOOK</span><h3>Coloring Book Rabbit</h3><p>A fun digital coloring experience centered around a cute rabbit theme.</p><div class="product-bottom"><strong class="price">$1.80</strong><a class="product-btn" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">View Product <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card featured" id="math">
-            <div class="product-visual math-visual"><div class="visual-label">MATH</div><div class="worksheet"><div class="line short"></div><div class="sum">7 + 5 = <b>?</b></div><div class="line"></div><div class="sum small">14 − 6 = <b>?</b></div><div class="dots">● ● ● ●</div></div></div>
-            <div class="product-body"><span class="tag">AGES 6–8 · GRADES 1–2</span><h3>Math Made Easy</h3><p>Addition & subtraction practice with simple explanations, step-by-step examples and engaging worksheets.</p><div class="product-bottom"><strong class="price">$1.35</strong><a class="product-btn" href="https://payhip.com/b/c14Vq" target="_blank" rel="noopener">Buy Now <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card" id="arabic">
-            <div class="product-visual arabic-visual"><div class="arabic-big">أ ب ت</div><div class="trace">ا  ا  ا  ا</div><div class="pen">✎</div></div>
-            <div class="product-body"><span class="tag">ARABIC HANDWRITING</span><h3>Write It Right – Early Arabic Letters</h3><p>Early Arabic letters with tracing, words, audio syllables and free-writing practice.</p><div class="product-bottom"><strong class="price">$2.70</strong><a class="product-btn" href="https://payhip.com/b/OCSYn" target="_blank" rel="noopener">Buy Now <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card">
-            <div class="product-visual master-visual"><div class="master-arabic">الحروف<br>العربية</div><div class="pencil">✏</div></div>
-            <div class="product-body"><span class="tag">ARABIC WRITING</span><h3>Master the Writing of Arabic Letters</h3><p>Practice writing Arabic letters with a resource designed for learners building handwriting skills.</p><div class="product-bottom"><strong class="price">$3.55</strong><a class="product-btn" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">View Product <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card">
-            <div class="product-visual writelearn-visual"><div class="write-arabic">ك ب س</div><div class="write-lines">ــــــــــــــــ<br>ــــــــــــــــ</div></div>
-            <div class="product-body"><span class="tag">ARABIC · BEGINNER</span><h3>Write & Learn – ك، ب، س</h3><p>A focused Arabic letters resource for writing and learning selected beginner letters.</p><div class="product-bottom"><strong class="price">$2.00</strong><a class="product-btn" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">View Product <span>↗</span></a></div></div>
-          </article>
-
-          <article class="product-card">
-            <div class="product-visual tips-visual"><div class="tips-number">10</div><div class="tips-copy">GOLDEN<br>MATH TIPS</div><div class="plus">＋</div></div>
-            <div class="product-body"><span class="tag">MATH · STUDY GUIDE</span><h3>Ten Golden Tips for Excelling in Math</h3><p>Practical tips to help learners approach mathematics with better habits and confidence.</p><div class="product-bottom"><strong class="price">$2.00</strong><a class="product-btn" href="https://payhip.com/Math2Store" target="_blank" rel="noopener">View Product <span>↗</span></a></div></div>
-          </article>
-        </div>        </div>
-      </div>
-    </section>
-
-    <section class="benefits">
-      <div class="container benefits-grid">
-        <div>
-          <div class="eyebrow">WHY MATH2STORE?</div>
-          <h2>Less pressure.<br><span>More progress.</span></h2>
-          <p>We create approachable resources that turn practice time into a positive learning experience.</p>
-        </div>
-        <div class="benefit-list">
-          <div class="benefit"><div class="benefit-icon">01</div><div><h3>Simple</h3><p>Clear activities that are easy to follow.</p></div></div>
-          <div class="benefit"><div class="benefit-icon">02</div><div><h3>Practical</h3><p>Resources built around practice and repetition.</p></div></div>
-          <div class="benefit"><div class="benefit-icon">03</div><div><h3>Affordable</h3><p>Useful digital learning at accessible prices.</p></div></div>
-          <div class="benefit"><div class="benefit-icon">04</div><div><h3>Instant</h3><p>Go from purchase to learning without waiting.</p></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="free-banner">
-      <div class="container free-banner-inner">
-        <div class="free-icon">🎁</div>
-        <div>
-          <div class="eyebrow">NO COST TO START</div>
-          <h2>Try our free Arabic workbook.</h2>
-          <p>A simple first step for children and beginners learning Arabic letters.</p>
-        </div>
-        <a class="btn btn-light" href="https://payhip.com/b/yft3G" target="_blank" rel="noopener">Get the Free Workbook →</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-grid">
-      <div>
-        <a class="brand footer-brand" href="#home"><span class="brand-mark">M</span><span>Math<span>2</span>Store</span></a>
-        <p>Simple digital resources for learning, practice and creativity.</p>
-      </div>
-      <div>
-        <h4>Explore</h4>
-        <a href="#math">Math</a>
-        <a href="#arabic">Arabic</a>
-        <a href="#coloring">Coloring</a>
-        <a href="#free">Free Resource</a>
-      </div>
-      <div>
-        <h4>Store</h4>
-        <a href="https://payhip.com/Math2Store" target="_blank" rel="noopener">Visit Payhip Store ↗</a>
-      </div>
+    <div class="hero-showcase" aria-hidden="true">
+      <div class="orbit o1"></div><div class="orbit o2"></div>
+      <div class="hero-note note1"><b>أ ب ت</b><small>Arabic</small></div>
+      <div class="hero-note note2"><b>7 + 5 = ?</b><small>Math</small></div>
+      <div class="hero-note note3"><b>🎨</b><small>Create</small></div>
+      <div class="hero-card"><div class="hero-card-top">MATH2STORE</div><div class="hero-symbol">M<span>²</span></div><div class="hero-card-bottom">LEARN • PRACTICE • CREATE</div></div>
     </div>
-    <div class="container copyright">© <span id="year"></span> Math2Store. All rights reserved.</div>
-  </footer>
+  </div>
+</section>
 
-  <script src="script.js"></script>
+<section class="categories">
+  <div class="container category-row">
+    <a href="#math"><span>＋</span><b>Math</b><small>Practice & skills</small></a>
+    <a href="#arabic"><span>أ</span><b>Arabic</b><small>Letters & handwriting</small></a>
+    <a href="#creative"><span>✦</span><b>Creative</b><small>Coloring & art</small></a>
+    <a href="#other"><span>♡</span><b>More</b><small>Guides & inspiration</small></a>
+  </div>
+</section>
+
+<section class="products-section" id="products">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">THE COLLECTION</div><h2>Find your next <span>favorite resource.</span></h2></div>
+      <p>Choose a category or browse everything. Every button below opens the <strong>individual Payhip product page</strong>.</p>
+    </div>
+
+    <div class="grid">
+      <article class="product-card" id="earth">
+        <div class="cover earth"><span class="cover-kicker">ITALY • ALGERIA</span><strong>TIMELESS<br>EARTH</strong><small>Matera ↔ Ghardaïa</small><i>◌</i></div>
+        <div class="card-content"><span class="tag">FINE ART</span><h3>Timeless Earth: From Matera to Ghardaïa</h3><p>A fine-art digital piece inspired by two timeless places.</p><a class="buy" href="https://payhip.com/b/pbgIR" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card">
+        <div class="cover citadel"><span class="cover-kicker">FINE ART PRINT</span><strong>TIMELESS<br>CITADEL</strong><small>Matera & Casbah</small><i>⌂</i></div>
+        <div class="card-content"><span class="tag">FINE ART</span><h3>Timeless Citadel: Matera & Casbah</h3><p>A digital fine-art work celebrating architectural heritage.</p><a class="buy" href="https://payhip.com/b/60kQH" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card" id="other">
+        <div class="cover cakes"><span class="cover-kicker">HEALTHY RECIPES</span><strong>FIT &<br>DELICIOUS</strong><small>Healthy Cakes • Zero Guilt</small><i>🍰</i></div>
+        <div class="card-content"><span class="tag">DIGITAL EBOOK</span><h3>Fit & Delicious: Healthy Cakes for Every Goal</h3><p>Healthy cake recipes for different goals and lifestyles.</p><a class="buy" href="https://payhip.com/b/BxIX5" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card" id="free">
+        <div class="cover free"><span class="free-label">100% FREE</span><strong>MASTER<br>ARABIC</strong><small>Handwriting & Letters from Scratch</small><i>أ → ي</i></div>
+        <div class="card-content"><span class="tag green">FREE RESOURCE</span><h3>Master Arabic Handwriting & Letters from Scratch</h3><p>Start learning Arabic letters with tracing and writing practice.</p><a class="buy orange" href="https://payhip.com/b/yft3G" target="_blank" rel="noopener">Get it free <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card" id="creative">
+        <div class="cover creatures"><span class="cover-kicker">20 PAGES</span><strong>COLORFUL<br>CREATURES</strong><small>A Coloring Adventure</small><i>🦋</i></div>
+        <div class="card-content"><span class="tag">COLORING · AGES 3–8</span><h3>Colorful Creatures: A Coloring Adventure</h3><p>Animals, cartoon heroes and natural landscapes to color and enjoy.</p><a class="buy" href="https://payhip.com/b/8gqa2" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card">
+        <div class="cover rabbit"><span class="cover-kicker">COLORING BOOK</span><strong>RABBIT</strong><small>Color • Create • Smile</small><i>🐇</i></div>
+        <div class="card-content"><span class="tag">CREATIVE FUN</span><h3>Coloring Book Rabbit</h3><p>A playful coloring resource built around a cute rabbit theme.</p><a class="buy" href="https://payhip.com/b/Dvwrg" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card" id="math">
+        <div class="cover math"><span class="cover-kicker">AGES 6–8 • GRADES 1–2</span><strong>MATH<br>MADE EASY</strong><small>Addition & Subtraction</small><i>7 + 5 = ?</i></div>
+        <div class="card-content"><span class="tag">MATH WORKBOOK</span><h3>Math Made Easy: Addition & Subtraction</h3><p>Simple explanations, step-by-step examples and engaging worksheets.</p><a class="buy" href="https://payhip.com/b/c14Vq" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card" id="arabic">
+        <div class="cover writeit"><span class="cover-kicker">EARLY ARABIC LETTERS</span><strong>اكتبها<br>بنجاح</strong><small>Write It Right</small><i>أ ب ت</i></div>
+        <div class="card-content"><span class="tag green">ARABIC HANDWRITING</span><h3>Write It Right – Early Arabic Letters Series</h3><p>Tracing, words, audio syllables and free-writing practice.</p><a class="buy" href="https://payhip.com/b/OCSYn" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card">
+        <div class="cover master"><span class="cover-kicker">ARABIC WRITING</span><strong>احترف كتابة<br>الحروف العربية</strong><small>Master Arabic Letters</small><i>✎</i></div>
+        <div class="card-content"><span class="tag green">ARABIC PRACTICE</span><h3>Master the Writing of Arabic Letters</h3><p>A focused resource for practicing Arabic letter formation and writing.</p><a class="buy" href="https://payhip.com/b/5VpCr" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+
+      <article class="product-card">
+        <div class="cover tips"><span class="cover-kicker">MATH SUCCESS</span><strong>10<br>GOLDEN<br>TIPS</strong><small>for Excelling in Math</small><i>＋</i></div>
+        <div class="card-content"><span class="tag">MATH GUIDE</span><h3>Ten Golden Tips for Excelling in Math</h3><p>Practical tips to help learners build stronger math habits.</p><a class="buy" href="https://payhip.com/b/XC0HE" target="_blank" rel="noopener">View product <b>↗</b></a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-box">
+    <div><div class="eyebrow">A LITTLE SOMETHING TO START</div><h2>Begin your learning journey <span>for free.</span></h2><p>Try the Arabic handwriting resource and see where practice takes you.</p></div>
+    <a class="btn light" href="https://payhip.com/b/yft3G" target="_blank" rel="noopener">Get the Free Resource →</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><a class="logo" href="#home"><span class="logo-box">M²</span><span>Math<span>2</span>Store</span></a><p>Learn. Practice. Create.</p></div>
+    <div><b>Explore</b><a href="#products">All Products</a><a href="#math">Math</a><a href="#arabic">Arabic</a><a href="#creative">Creative</a></div>
+    <div><b>Store</b><a href="https://payhip.com/Math2Store" target="_blank" rel="noopener">Visit Payhip Store ↗</a></div>
+  </div>
+  <div class="container copyright">© <span id="year"></span> Math2Store</div>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
